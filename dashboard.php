@@ -146,7 +146,6 @@ function get_skill_value($row, $skillLabel) {
     return intval($row[$col] ?? 0);
 }
 
-// ========== PEMENUHAN MODUL 5,6,7 ========== //
 $analyzer = new CareerAnalyzer();
 $queue = new CareerQueue();
 
